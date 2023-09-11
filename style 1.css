@@ -1,28 +1,23 @@
-*
-
-
-
-h1{
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+* h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-h1{
-text-align: center;   
+h1 {
+  text-align: center;
 }
 
-div{
-    background-color: blueviolet;
+div {
+  text-align: center;
 }
 
-
-div{text-align: center;}
-
-div{font-size: large ;}
-
-h1{
--ms-grid-layer: unset;    
+div {
+  font-size: large;
 }
 
-h1{
-    text-shadow: 4px 2px 2px #1C6EA4;
+h1 {
+  -ms-grid-layer: unset;
+}
+
+h1 {
+  text-shadow: 4px 2px 2px #1c6ea4;
 }
