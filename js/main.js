@@ -1,12 +1,8 @@
 console.log('main js');
 
-const changeButton = document.getElementById(".throw-Button");
-const ownTextDiv = document.querySelector(".own-text");
+const throwButton = document.querySelelector(".throwButton");
+console.log  ("throw-Button is " +throwButton )
 
-changeButton.addEventListener("click", () => {
-  const newText = prompt("Voer nieuwe tekst in:");
+throwButton.addEventListener('click' , myFunction);
 
-  if (newText !== null) {
-    ownTextDiv.textContent = newText;
-  }
-});
+let counter = 0;
